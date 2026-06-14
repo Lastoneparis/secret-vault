@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Secret Vault — Support</title>
+<meta name="description" content="Help and support for Secret Vault: passcodes, the decoy vault, importing, subscriptions, and contact.">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <a class="brand" href="index.html"><img src="assets/icon.png" alt="Secret Vault icon"> Secret Vault</a>
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+  </div>
+</nav>
+
+<main class="wrap doc">
+  <h1>Support</h1>
+  <p class="updated">We're happy to help. Most questions are answered below.</p>
+
+  <div class="callout">
+    <strong>Contact us:</strong> email <a href="mailto:hugomoriceau@gmail.com?subject=Secret%20Vault%20Support">hugomoriceau@gmail.com</a>
+    and we'll get back to you within 1–2 business days. Please include your device model and iOS version.
+  </div>
+
+  <div class="faq">
+    <details open>
+      <summary>I forgot my passcode. Can you recover my photos?</summary>
+      <p>No — and that's by design. Your photos are encrypted with a key that exists only on your
+      device, and your passcode is never sent anywhere or stored in a way we can read. We have no
+      backdoor and no access to your data, so we cannot reset your passcode or recover your vault.
+      Please keep your passcode somewhere safe.</p>
+    </details>
+    <details>
+      <summary>How does the decoy vault work?</summary>
+      <p>In Settings you can set a second "decoy" passcode. Entering that code at the lock screen opens
+      a separate, harmless vault instead of your real one. This gives you plausible deniability if you're
+      ever pressured to unlock the app. Your real vault stays completely hidden.</p>
+    </details>
+    <details>
+      <summary>What is the intruder alert?</summary>
+      <p>If someone enters the wrong passcode three times in a row, Secret Vault silently takes a photo
+      with the front camera and records the time, so you can see who tried to open your vault. iOS always
+      shows its green camera indicator while the camera is active — that's a system privacy feature we
+      cannot and would never disable.</p>
+    </details>
+    <details>
+      <summary>Will importing delete my originals?</summary>
+      <p>Only if you turn on "Delete Originals After Import" in Settings. When enabled, after a photo is
+      safely encrypted in your vault, iOS will ask you to confirm removing the original from your camera
+      roll. Nothing is deleted without that confirmation.</p>
+    </details>
+    <details>
+      <summary>How do I manage or cancel my subscription?</summary>
+      <p>Subscriptions are handled by Apple. On your iPhone or iPad, open <strong>Settings → [your name]
+      → Subscriptions</strong>, select Secret Vault, and choose to change or cancel. If you cancel, you
+      keep Premium until the end of the current billing period.</p>
+    </details>
+    <details>
+      <summary>How do I restore a purchase on a new device?</summary>
+      <p>Open Secret Vault, go to Settings, and tap <strong>Restore Purchases</strong>. As long as you're
+      signed in with the same Apple ID you purchased with, your Premium access will be restored. Note that
+      your encrypted photos themselves do not transfer between devices automatically.</p>
+    </details>
+    <details>
+      <summary>Is my data backed up?</summary>
+      <p>Your encrypted vault lives on your device. End-to-end encrypted cloud backup is on our roadmap.
+      Until then, we recommend keeping copies of anything irreplaceable, because if you delete the app or
+      reset the vault, the encryption keys are destroyed and the data cannot be recovered.</p>
+    </details>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+    <div class="copy">© 2026 Hugo Moriceau. Secret Vault.</div>
+  </div>
+</footer>
+
+</body>
+</html>
